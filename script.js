@@ -49,6 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Replace 'YOUR_STRIPE_PAYMENT_LINK_HERE' with the actual URL.
         // Example: https://buy.stripe.com/test_55a9Aa0o01d01d0
         alert('Redirecting to secure payment via Stripe...');
-        window.location.href = 'YOUR_STRIPE_PAYMENT_LINK_HERE';
+        window.location.href = 'https://buy.stripe.com/9B6fZi6wkgYQ5277nR2oE00';
     });
 });
