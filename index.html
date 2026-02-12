@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bio & Headline Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Craft Your Perfect Bio & Headline</h1>
+        <p class="subtitle">Generate engaging social media bios and LinkedIn headlines in seconds. Get noticed, get connected.</p>
+
+        <form id="bio-form">
+            <div class="form-group">
+                <label for="role">Your Role/Industry:</label>
+                <input type="text" id="role" placeholder="e.g., Software Engineer, Marketing Specialist, Entrepreneur" required>
+            </div>
+            <div class="form-group">
+                <label for="keywords">Keywords/Goals (comma-separated):</label>
+                <input type="text" id="keywords" placeholder="e.g., innovation, leadership, growth, content creation" required>
+            </div>
+            <button type="submit" id="generate-button">Generate My Bios</button>
+        </form>
+
+        <div id="results" class="hidden">
+            <h2>Your AI-Generated Options:</h2>
+            <div id="bio-output">
+                <!-- AI generated bios will be injected here -->
+            </div>
+            <p class="price-info">Powered by AI. Pay $1 to unlock your custom bios.</p>
+            <button id="pay-button" class="hidden">Unlock Now ($1)</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 HustleBot. Built for speed.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
